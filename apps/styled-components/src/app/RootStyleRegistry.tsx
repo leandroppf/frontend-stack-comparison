@@ -2,6 +2,7 @@
 
 import { useStyledComponentsRegistry } from "../lib/styled-components";
 import { useServerInsertedHTML } from "next/navigation";
+import GlobalStyle from "../styles/global";
 
 export default function RootStyleRegistry({
   children,
@@ -15,5 +16,12 @@ export default function RootStyleRegistry({
     return <>{styledComponentsFlushEffect()}</>;
   });
 
-  return <StyledComponentsRegistry>{children}</StyledComponentsRegistry>;
+  return (
+    <StyledComponentsRegistry>
+      <>
+        <GlobalStyle />
+        {children}
+      </>
+    </StyledComponentsRegistry>
+  );
 }
