@@ -1,7 +1,9 @@
+import * as Components from "./styles";
+
 export default function Docs() {
   return (
-    <div>
-      <h1>Stitches</h1>
-    </div>
+    <Components.Main>
+      <Components.PageTitle>Stitches</Components.PageTitle>
+    </Components.Main>
   );
 }
