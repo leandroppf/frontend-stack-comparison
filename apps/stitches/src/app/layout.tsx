@@ -7,6 +7,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  globalStyles();
+
   return (
     <html>
       <head>
@@ -15,7 +17,6 @@ export default function RootLayout({
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
-        <style>{globalStyles()}</style>
       </head>
       <body>
         <RootStyle>{children}</RootStyle>
