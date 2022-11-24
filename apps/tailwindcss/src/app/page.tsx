@@ -1,7 +1,9 @@
 export default function Docs() {
   return (
-    <div>
-      <h1>Tailwindcss</h1>
-    </div>
+    <main>
+      <h2 className="text-textDefault-l dark:text-textDefault-d">
+        Tailwindcss
+      </h2>
+    </main>
   );
 }
