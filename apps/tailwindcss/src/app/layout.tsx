@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head></head>
+      <head>
+        <title>Tailwindcss stack</title>
+      </head>
       <body>
         <ClientLayout>{children}</ClientLayout>
       </body>
