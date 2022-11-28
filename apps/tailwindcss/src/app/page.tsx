@@ -13,6 +13,32 @@ export default function Docs() {
       </h2>
       <hr className="divide-solid mt-4 mb-8 border-gray200-l dark:border-gray300-l" />
 
+      <div className="flex flex-col mx-auto max-w-xs gap-4">
+        <div className="flex justify-center items-center flex-row gap-4">
+          <span className="text-xs text-red300-d">Stitches</span>
+          <span className="text-base text-emerald300-d">Next</span>
+          <span className="text-xl text-cyan300-d">React</span>
+        </div>
+        <div className="flex justify-center items-center flex-row gap-4">
+          <span className="text-xs text-red300-d">Stitches</span>
+          <span className="text-base text-emerald300-d">Next</span>
+          <span className="text-xl text-cyan300-d">React</span>
+        </div>
+      </div>
+
+      <div className="flex flex-col rounded p-4 mx-auto max-w-xs border border-red300-d items-center justify-center gap-4">
+        <div className="flex justify-center items-center flex-row gap-4">
+          <span className="text-xs text-red300-d">Stitches</span>
+          <span className="text-base text-emerald300-d">Next</span>
+          <span className="text-xl text-cyan300-d">React</span>
+        </div>
+        <div className="flex justify-center items-center flex-row gap-4">
+          <span className="text-xs text-red300-d">Stitches</span>
+          <span className="text-base text-emerald300-d">Next</span>
+          <span className="text-xl text-cyan300-d">React</span>
+        </div>
+      </div>
+
       <div className="flex flex-row items-center gap-10">
         <Badge color={badgeColor} label="Badge component" />
 

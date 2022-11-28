@@ -47,6 +47,15 @@ export const { styled, css, getCssText, createTheme, globalCss } =
         80: "20rem",
         100: "25rem",
       },
+      space: {
+        1: "0.5rem",
+        2: "1rem",
+      },
+      fontSizes: {
+        sm: "0.75rem",
+        md: "1rem",
+        lg: "2rem",
+      },
     },
   });
 
